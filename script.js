@@ -13,10 +13,11 @@ function start(){
 
     //Add the h1 to the page
     document.body.appendChild(heading);
-
-    let addName = readLine""
+    let userName = prompt("What is your name?");
+    console.log(userName);
+    
 }
 
-function addName(){
-
+function addName(newName){
+    
 }
